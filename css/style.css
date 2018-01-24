@@ -9,24 +9,52 @@ body{
 
 .main-header{
     background-image: radial-gradient(circle, #fff 55%, #eee 100%);
-    height: 500px;
-}
+    height: 400px;
 
+}
+.header-bg{
+    background: url("../images/header.png") no-repeat fixed center;
+    background-size: 400px;
+}
+.logo{
+    margin-top: 15px;
+}
+.logo:hover{
+    background: url("../images/logo2.png");
+}
+.main-text-header{
+    color: #222;
+    font-size: 7rem;
+}
+.main-text-bg{
+    background: linear-gradient(45deg, rgba(150, 150, 150, 0.5),  rgba(200, 200, 200, 0.3));
+    margin: 0 -20px 0 -20px; 
+    margin-top: 282px;
+    height: 70px;
+
+
+}
 .left-bracket{
+    float: left;
     font-size: 20rem;
     position: relative;
 }
 
 .right-bracket{
+    float: left;
     font-size: 20rem;
-    margin-left: 40px;
+    margin-left: 10px;
 
 }
 
 .toolslist{
     float: left;
-    margin-left: 150px;
-    background-color: aquamarine;
+    margin-top: 47px;
+    margin-left: 10px;
+    border: 1px solid rgba(250, 150, 150, 0.2);
+    padding: 15px;
+
+
 }
 
 .main-text{
@@ -38,3 +66,23 @@ body{
     color: #f00; 
 }
 
+.about{
+    background-color: #222222;
+    
+}
+.about-me{
+    color: #aaa;
+
+}
+.stripe{
+
+}
+.stripe-gallery{
+    background: linear-gradient(45deg, #bbb, #eee);
+    
+}
+
+.stripe-contact{
+    background: linear-gradient(45deg, #999, #ddd);
+
+}

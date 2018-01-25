@@ -28,12 +28,12 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12 main-header header-bg">
-				<header class="">
+				<header>
 					<a href="#">
-						<img src="images/logo.png" alt="ik logo" class="logo">
+						
 					</a>
 					<div class="main-text-bg">
-						<h1 class="main-text-header">IGOR KLEM /</h1>
+						<h1 class="main-text-header">IGOR KLEM <span class="slash">/</span></h1>
 					</div>
 				</header>
 			</div>
@@ -43,21 +43,24 @@
 
 		<!-- about -->
 		<div class="row about">
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="col-xs-12 col-xs-offset-2 col-sm-4 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-6 col-lg-offset-2">
 				<div class="left-bracket">{</div>
 				<div class="toolslist">html <br>css <br>javascript<br>php <br>mysql <br> wordpress <br>visual studio code</div>
 				<div class="right-bracket">}</div>
 			</div>
-			<div class="col-xs-10 col-sm-5 col-md-5 col-lg-4 col-lg-offset-1">
+			<div class="col-xs-10 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-0">
 				<h4>about me</h4>
 				<p class="about-me">Hi!
 						My name is xxxx xxxxx and I'm an web developer / web designer from eu. Ihave more than 5 years of experience in web development area. Involved both in web design and web development(design and coding). Dedicated, hard work, learner. Fast, accurate, organized. Self taught. Reasonably ppriced. Accepting freelance and remote jobs only. Long term clients have advantage. Payments only via PayPal, stripe, skrill, bitcoin.
 
 				</p>
-				<div class="social-links">
-					<button><i class="">like</i></button>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>			
+				<div class="social-area">
+					<ul class="social-links">
+						<li class="social-items"><a href="">bla</a></li>
+						<li class="social-items"><a href="">bla</a></li>
+						<li class="social-items"><a href="">bla</a></li>
+					</ul>
+									
 				</div>
 			</div>
 		</div>
@@ -67,7 +70,7 @@
 		<!-- gallery -->
 		<div class="row stripe stripe-gallery">
 			<div class="col-xs-12">
-				<h3 class="main-text">GALLERY /</h3>
+				<h3 class="main-text">GALLERY <span class="slash">/</span></h3>
 			</div>
 		</div>
 		
@@ -92,40 +95,59 @@
 		<!-- footer  -->
 		<div class="row stripe stripe-contact">
 			<div class="col-xs-12">
-				<h3 class="main-text">CONTACT /</h3>
+				<h3 class="main-text main-text-contact">CONTACT <span class="slash">/</span></h3>
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row contact-bg">
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 				<div class="visitcard"></div>
 			</div>
-		</div>
 
-		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-				<p>If you have any further questions feel free to contact me</p>
-				<form action="">
-					<input type="text" name="fname">
-					<input type="text" name="lname">
-					<input type="text" name="mail">
-					<input type="text" name="quest">
-					<input type="submit" value="submit">
+				<p class="contact-intro">If you have any further questions feel free to contact me</p>
+				<form class="contact-form-fields">
+					<div class="input-group">
+						<span class="input-group-addon">Name</span>
+						<input id="msg" type="text" class="form-control" name="msg" placeholder="Your name">
+					</div>
+					<div class="input-group">
+						<span class="input-group-addon">Lastname</span>
+						<input id="msg" type="text" class="form-control" name="msg" placeholder="*not mandatory">
+					</div>
+					<div class="input-group">
+						<span class="input-group-addon">E-mail</span>
+						<input id="msg" type="text" class="form-control" name="msg" placeholder="yourmail@mail.com">
+					</div>
+					<div class="input-group">
+						<span class="input-group-addon">Text</span>
+						<input id="msg" type="text" class="form-control" name="msg" placeholder="ask me something">
+					</div>
+					<div class="form-group">        
+						<div class="col-sm-offset-10 col-sm-12">
+							<button type="submit" class="btn btn-submit">Submit</button>
+						</div>
+					</div>
 				</form>
+			
 				<p>* You hate spamming? Me to. <br> 
 					Your mail address will be deleted after contact
 				</p>
-				<button>I just want to find your rates</button>
-				<button>affiliate program</button>
+				<button class="btn rates">I just want to find your rates</button>
+				<button class="btn affiliate">affiliate program</button>
+			</div>	
+			<div class="row copyright">
+				<div class="col-xs-4 col-xs-offset-5">
+					<p class="copyright">Igor Klem ©2018 All rights reserved</p>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-4 col-xs-offset-4">
-				<p>Igor Klem ©2018 All rights reserved</p>
-			</div>
-		</div>
-	</div>
+
+			
+		
 		<!-- end footer -->
+	</div>
+		
 
 </body>
 </html>
